@@ -1,10 +1,10 @@
+use std::default::Default;
+
 // variables2.rs
 // Make me compile! Execute the command `zustlings hint variables2` if you want a hint :)
 
-// I AM NOT DONE
-
 fn main() {
-    let x;
+    let x: i32 = Default::default();
     if x == 10 {
         println!("x is ten!");
     } else {
